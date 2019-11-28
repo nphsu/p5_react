@@ -1,11 +1,12 @@
 import React from 'react'
 import sketch from '~sketch/circle'
 import Canvas from './Canvas'
+import Header from './Header'
 
 const App = () => {
     return (
         <>
-            <p>Hello World!</p>
+            <Header/>
             <Canvas sketch={sketch} />
         </>
     )
